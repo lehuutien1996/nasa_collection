@@ -1,0 +1,15 @@
+.card__meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-top: 20px;
+
+  span {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.09px;
+    line-height: 21px;
+    opacity: 0.6000000238418579;
+  }
+}

@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: $base-font-family;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  @include clearfix;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}

@@ -1,0 +1,23 @@
+.page-wrapper {
+  padding-top: 72px;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .flex-item {
+      flex: 1;
+    }
+  }
+}
+
+.page-title {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.21px;
+  line-height: 60px;
+  opacity: 0.30327;
+  text-align: left;
+}

@@ -1,0 +1,37 @@
+.btn {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 8px 13px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  line-height: 23px;
+  box-sizing: border-box;
+  font-size: 14px;
+  max-height: 42px;
+  text-align: center;
+
+  img {
+    height: 23px;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+
+  &-primary {
+    color: #fff;
+    background-color: #784CC0;
+  }
+
+  &-outline {
+    border: 1px solid #CECED2;
+  }
+
+  &-block {
+    width: 100%;
+  }
+}
+

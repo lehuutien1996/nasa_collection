@@ -1,0 +1,17 @@
+.input-select {
+  cursor: pointer;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -55%) rotate(45deg);
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #626265;
+    border-bottom: 2px solid #626265;
+  }
+}

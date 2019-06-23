@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixins';
+
+.row {
+  margin-left: -$column-padding;
+  margin-right: -$column-padding;
+
+  @include clearfix;
+}
+
+[class^="column-"],
+[class*=" column-"] {
+  float: left;
+  padding-left: $column-padding;
+  padding-right: $column-padding;
+}
+
+.column-3 {
+  width: calc(100% / 3);
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+}

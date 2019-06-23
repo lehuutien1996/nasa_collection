@@ -1,0 +1,12 @@
+@import 'variables';
+
+.container {
+  width: 960px;
+  margin: auto;
+
+  @media (max-width: 960px) {
+    padding-left: $base-padding;
+    padding-right: $base-padding;
+    width: 100%;
+  }
+}
